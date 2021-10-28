@@ -12,7 +12,7 @@ Các hệ điều hành chạy Linux cũng yêu cầu ít tài nguyên phần c�
 > 
 Linux Distro (nhiều nhà phân phối) đã ra đời với nhiệm vụ cải thiện và phát triển thêm nhiều tính năng hơn cho các hệ điều hành chạy nhân Linux ví dụ như phần mềm nghe nhạc, quản lý email, trình duyệt, phần mềm office, v.v. Sau đó, những nhà phân phối đóng gói tất cả lại thành một hệ điều hành và phân phối nó cho người dùng. Trong đó, 3 Linux distributions nổi tiếng nhất là Debian, Redhat và Slackware.  
 
-Xét về thị trường:  
+**Xét về thị trường:**  
 
 Các distro Linux phổ biến và phát triển hiện nay được chia thành 4 nhóm:  
 
@@ -34,7 +34,7 @@ Các bản distrolinux nhắm vào thị trường máy chủ, doanh nghiệp, c
 
 Đối tượng khách hàng của nhóm 4 là người mới bắt đầu dùng Linux và người dùng cuối. Đặc tính của chúng là phát triển trong thời gian ngắn, ứng dụng các công nghệ mới liên tục, nhiều công cụ đồ họa để thiết kế và cấu hình hệ thống theo nhu cầu sử dụng. Nhóm này cũng rất thân thiện với người dùng mới làm quen Linux.  
 
-Xét về triết lý phần mềm  
+**Xét về triết lý phần mềm**  
 
 Triết lý phần mềm là những nguyên tắc, hay định hướng, mục tiêu của người phát triển chúng đặt ra. Vì thế, khi xét về yếu tố này thì distro cũng được phân thành 4 nhóm.  
 
