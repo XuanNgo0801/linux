@@ -24,3 +24,32 @@
   + Thoát khỏi file: Nhấn "wq!", hoặc "x" hoặc "q!"
   + Đứng từ flie vim đọc, ghi các file khác mà không cần thoát ra ngoài: "! ls", "r! ls"
   + Câu lệnh đặt các số đầu dòng text để dễ dàng quản lý, ra soát lỗi: set number
+
+- Thao tác lệnh để xem nội dung file text:  
+`cat [option] [filename]` (Lệnh cat-concatenate bản chất là ghép nối các file với nhau)  
+Một số option sử dụng trong lệnh `cat` như sau:  
+
+![image](https://user-images.githubusercontent.com/92737759/145425183-f17dafd6-18d4-45ca-99a2-9ec8815bc30e.png)
+
+- Câu lệnh xem nội dung file theo nhiều cách hiển thị ( hệ bát phân, thập phân, thập lục phân, ASCII): `od [option] [filename]`
+
+- Một số các công cụ lệnh khác:  
+1. `split [option] [input [prefix]]`: Cắt các file lớn thành nhiều file nhỏ hơn  
+  Ví dụ: ![image](https://user-images.githubusercontent.com/92737759/145430194-53621e3a-3478-4d0a-a468-44c8409d7418.png)
+2. `tr [option] SET1 [SET2]`: Translate, dịch các chuỗi từ chữ hoa thành chữ thường  
+  Ví dụ: `cat [filename] :tr "[A-Z]" "[a-z]"`
+3. `sort [option] [filename]`: sắp xếp file theo ý muốn  
+  Ví dụ: ![image](https://user-images.githubusercontent.com/92737759/145438578-3034b946-24c1-49c9-9627-2aa906009783.png)
+4. `nl [option] [filename]`: Hiển thị STT các dòng  
+  Ví dụ: ![image](https://user-images.githubusercontent.com/92737759/145439240-883c1d45-dce6-4b02-ac00-bbd68861df44.png)
+
+- Các công cụ more, less, head, tail 
+  Ví dụ: `tail -f [filename]`: xem file ở dạng realtime  
+- Công cụ `wc [option] [filename]`: Đếm số dòng số byte... trong file text  
+
+![image](https://user-images.githubusercontent.com/92737759/145442146-b27c9006-b081-4846-9cce-66841b251cc1.png)
+- Công cụ `cut [option] [filename]`: sử dụng cho các file có cấu trúc (Được chia thành các cột riêng và ta có thể truy xuất dữ liệu vào từng trường cụ thể)  
+
+![image](https://user-images.githubusercontent.com/92737759/145442722-1e9e4b03-a774-4abe-acb1-d0e147eda973.png)
+
+  Ví dụ: ![image](https://user-images.githubusercontent.com/92737759/145443260-e108ee94-e2d7-4349-9826-bc0f1142d2a8.png)
